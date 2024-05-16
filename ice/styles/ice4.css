@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+}
+section.top, div.quote{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+}
+h1:hover{
+    color: black;
+}
+.list{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+.photo{
+    display: block;
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 2%;
+}
+div.quote{
+    font-size: 2em;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+.bottom{
+    text-align: center;
+}
