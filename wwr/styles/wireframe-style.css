@@ -1,6 +1,92 @@
-.logo-img{
-    width:100px
+#content {
+    max-width: 1600px;
+    margin: 0 auto
 }
-.first-menu a:link, .firstmenu a:visited{
-    color:orange;
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-align: center;
+    color: #877666;
+    background-color: #78c5d7;
+    text-decoration: none;
+}
+#banner-msg h1, #banner-msg h4 {
+    text-align: center;
+}
+#banner-img {
+    width: 100%;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #FFFFFF; 
+}
+header {
+    background-color:#134266;
+}
+.home-title{
+    color: #134266;
+}
+h4{
+    color: #134266;
+}
+.book, .join {
+    text-align: center;
+    color: #134266;
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    text-align: center;
+    color: #877666;
+    background-color: #78c5d7;
+    text-decoration: none;
+}
+.msg h2 {
+    text-align: center;
+    color: #134266;
+}
+.msg p {
+    text-align: center;
+    color: #134266;
+}
+#background {
+    background-color: #877666;
+}
+footer {
+    background-color: #134266;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-align: center;
+    color: #877666;
+    background-color: #78c5d7;
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+} 
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
 }
