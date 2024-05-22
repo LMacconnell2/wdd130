@@ -57,9 +57,6 @@ main section {
 main section img {
     box-sizing: border-box;
 }
-#background {
-    height: 725px;
-}
 body {
     background-color: #FFFFFF; 
 }
@@ -83,8 +80,9 @@ h2, h3, h4{
     border: 10px solid #877666;
 }
 .book, .join {
+    background-color: #877666;
     text-align: center;
-    color: #134266;
+    color: #fce172;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -100,22 +98,28 @@ h2, h3, h4{
 .msg {
     padding: 35px;
     line-height: 1.5em;
+    background-color: #134266;
 }
 .msg h2 {
     text-align: center;
-    color: #134266;
+    color: #fce172;
     font-size: 1.2em;
     font-family: var(--heading-font);
 }
 .msg p {
     text-align: center;
-    color: #134266;
+    color: #fce172;
     font-family: var(--paragraph-font);
     font-size: .8em;
     padding-bottom: 15px;
 }
 #background {
-    background-color: #877666;
+    background-color: #134266;
+    height: 725px;
+}
+.mountains {
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 footer {
     background-color: #134266;
