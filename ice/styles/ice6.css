@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.cherries {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+}
+.img {
+    width: 25%;
+    margin: 0;
+}
+.gray {
+    width: 100%;
+    background: darkgray;
+    text-align: center;
+}
+.header {
+    color:black;
+
+}
+.text {
+    color: darkred;
+    font-size: 2em;
+}
