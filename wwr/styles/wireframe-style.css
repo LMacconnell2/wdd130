@@ -214,7 +214,7 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
     font-family: var(--paragraph-font);
-} 
+}
 footer p a:hover {
     text-decoration: underline;
     background-color: #78c5d7;
