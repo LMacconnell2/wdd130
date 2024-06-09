@@ -125,6 +125,7 @@ h2, h3, h4{
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 35px;
+    width: 300px;
 }
 .card-img {
     border: 10px solid #877666;
