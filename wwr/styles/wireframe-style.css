@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 --heading-font: Raleway, Helvetica, sans-serif;
 --paragraph-font: Roboto, Helvetica, sans-serif;
 body {
@@ -91,9 +91,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
-.card-grid {
+.home-grid {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 main section img {
     box-sizing: border-box;
@@ -124,7 +124,7 @@ h2, h3, h4{
     grid-row: 2/3;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 75px;
+    margin: 35px;
 }
 .card-img {
     border: 10px solid #877666;
