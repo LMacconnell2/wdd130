@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: white;
+}
+.bridge-cont {
+    background-color: black;
+    font-size: 0;
+}
+.bridge {
+    width: 100%;
+    margin: 0px;
+    font-size: 0px;
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    
+}
+.main {
+    background-color: white;
+    margin: 0px;
+}
+.main h1 {
+    font-size: 2em;
+}
+.main h4 {
+    color: #415ca4;
+    margin: 0;
+}
+.main p {
+    font-size: 1.5em;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: gray;
+    background-color: #FFFFFF;
+}
+footer {
+    background-color: black;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #415ca4;
+    color: #FFFFFF;
+    border-top: 3px solid black;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.grid h2 {
+    margin-bottom: 5px;
+}
+.grid h3 {
+    margin-top: 5px;
+}
+.read, .views {
+    border-right: 1px solid gray;
+}
