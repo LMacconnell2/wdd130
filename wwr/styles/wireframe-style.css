@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
---heading-font: Raleway, Helvetica, sans-serif;
---paragraph-font: Roboto, Helvetica, sans-serif;
+
 body {
     background-color: #ffffff;
-    font-size: 0;
     margin: 0px;
     padding: 0px;
 }
@@ -34,7 +32,7 @@ nav a {
     color: #fce172;
     text-decoration: none;
     font-size: 1.2em;
-    font-family: var(--heading-font);
+    font-family: "Raleway", Helvetica, sans-serif;
     padding: 35px;
 }
 nav a:hover {
@@ -60,7 +58,7 @@ nav a:hover {
 }
 #banner-msg h1, #banner-msg h4 {
     text-align: center;
-    font-family: var(--heading-font);
+    font-family: "Raleway", Helvetica, sans-serif;
     color: #FFFFFF;
 }
 #banner-msg h1 {
@@ -71,7 +69,7 @@ nav a:hover {
 }
 .bookings {
     text-align: center;
-    font-family: var(--heading-font);
+    font-family: "Raleway", Helvetica, sans-serif;
     text-decoration: none;
 }
 #banner-img {
@@ -108,7 +106,7 @@ body {
 }
 h2, h3, h4{
     color: #134266;
-    font-family: var(--paragraph-font);
+    font-family: "Roboto", Helvetica, sans-serif;
     margin: 0;
 }
 .rivers-card {
@@ -167,12 +165,12 @@ h2, h3, h4{
     text-align: center;
     color: #fce172;
     font-size: 1.2em;
-    font-family: var(--heading-font);
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 .msg p {
     text-align: center;
     color: #fce172;
-    font-family: var(--paragraph-font);
+    font-family: "Roboto", Helvetica, sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -196,7 +194,7 @@ h2, h3, h4{
 footer {
     background-color: #134266;
     color: #fce172;
-    font-family: var(--paragraph-font);
+    font-family: Roboto, Helvetica, sans-serif;
     margin-top: 200px;
     padding: 25px 50px;
     display: flex;
@@ -206,7 +204,7 @@ footer {
 footer a {
     color: #fce172;
     text-decoration: none;
-    font-family: var(--paragraph-font);
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 footer a:hover {
     color: #877666;
@@ -214,7 +212,7 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
-    font-family: var(--paragraph-font);
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -241,7 +239,7 @@ footer .social img:hover {
     grid-column: 1/2;
     grid-row: 1/2;
     border: #6f7364 solid 2px;
-    font-family: var(--heading-font);
+    font-family: "Raleway", Helvetica, sans-serif;
     color: #fce172;
     background-color: #134266;
 }
@@ -253,7 +251,7 @@ footer .social img:hover {
     border-top: 2px #6f7364 solid;
     border-right: 2px #6f7364 solid;
     border-bottom: 2px #6f7364 solid;
-    font-family: var(--paragraph-font);
+    font-family: Roboto, Helvetica, sans-serif;
     background-color: #fce172;
     color: #134266;
 }
@@ -264,7 +262,7 @@ footer .social img:hover {
     border-left: #6f7364 solid 2px;
     border-right: #6f7364 solid 2px;
     border-bottom: #6f7364 solid 2px;
-    font-family: var(--heading-font);
+    font-family: "Raleway", Helvetica, sans-serif;
     color: #fce172;
     background-color: #134266;
 }
@@ -275,7 +273,7 @@ footer .social img:hover {
     padding: 10px;
     border-bottom: #6f7364 solid 2px;
     border-right: #6f7364 solid 2px;
-    font-family: var(--paragraph-font);
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 .faq-background {
     margin-top: 200px;
