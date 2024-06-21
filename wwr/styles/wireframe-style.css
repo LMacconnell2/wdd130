@@ -229,6 +229,12 @@ footer .social img:hover {
     width: 80px;
     padding-top: 10px;
 }
+.faq {
+    text-align: center;
+    color: #134266;
+    font-family: "Raleway", Helvetica, sans-serif;
+    margin: 50px;
+}
 .question-grid {
     margin: 50px;
     display: grid;
